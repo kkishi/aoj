@@ -5,7 +5,7 @@
 
 void Main() {
   ints(n, q);
-  add_sum::segtree r(V<add_sum::S>(n, {0, 1}));
+  add_sum::segtree r(n);
   rep(q) {
     ints(com, x, y);
     --x;
